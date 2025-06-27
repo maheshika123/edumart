@@ -1,4 +1,3 @@
-
 "use client";
 
 import * as React from "react";
@@ -144,7 +143,7 @@ export default function ExportStudentsPage() {
             <DialogTitle>Export Options</DialogTitle>
             <DialogDescription>
               Choose how you would like to export the student data.
-            </Description>
+            </DialogDescription>
           </DialogHeader>
           <div className="flex flex-col space-y-4 py-4">
             <Button onClick={handleExportPdf}>
@@ -194,4 +193,3 @@ export default function ExportStudentsPage() {
   );
 }
 
-    
